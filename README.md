@@ -9,14 +9,23 @@ boun_finder.ipnb is an example notebook that shows how to use the boundary finde
 **Parameters**: 
 
   x: array, features 
+  
   y: array,labels
+  
   xmin: list,minimum values for features
+  
   xmax: list,maximum values for features
+  
   purity: float, purity value to determine the single-label region
+  
   rnd_split: float, 0-0.25, to define the random splitting of sub-cells
+  
   relabel: bool, determines if the data need to be relabeled  to [-1,1]
+  
   method: str. Possible values "none' or 'weighted'. Defines method to determine the boundary point
+  
   points_per_dim: int, defines limiting number of datapoints per dimension for 'weighted' method
+  
   repeat: int, defines how many times the algorithm runs. Makes sense only of rnd_split is not zero
   
   
