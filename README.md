@@ -5,7 +5,9 @@ helpfunc.py contains helper functions to create synthetic datasets and to estima
 boun_finder.ipnb is an example notebook that shows how to use the boundary finder.
 
 *class* **BoundaryFinder**(*x,y,xmin=[],xmax=[],purity=1.0,rnd_split=0.2,relabel=True,method='none',points_per_dim=5.0,repeat=1*)
+
 **Parameters**: 
+
   x: array, features 
   y: array,labels
   xmin: list,minimum values for features
